@@ -1,0 +1,13 @@
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\domain\Employee.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\configuration\AwsConfig.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\service\EmployeeServiceImpl.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\AwsDynamodbApplication.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\dto\EmployeeResponse.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\exception\DataNotFoundException.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\StreamLambdaHandler.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\repository\EmployeeRepository.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\SaveEmployeeHandler.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\web\EmployeeController.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\configuration\DynamoDbConfig.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\dto\EmployeeRequest.java
+C:\training\New folder\spring-boot-aws-dynamodb\src\main\java\com\sample\microservice\awsdynamodb\service\EmployeeService.java

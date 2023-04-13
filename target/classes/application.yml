@@ -1,0 +1,5 @@
+# AWS properties
+aws:
+  region: us-east-1
+  endpoint: dynamodb.us-east-1.amazonaws.com
+

@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Lambda with spring boot and dynamo db.
+Resources:
+  AwsDynamodbAPI:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: AwsDynamodbAPI
+      Handler: com.sample.microservice.awsdynamodb.StreamLambdaHandler
+      Runtime: java11
+      Architectures:
+      - x86_64
+      Policies:
+      - AWSLambdaBasicExecutionRole
+      - AmazonDynamoDBFullAccess
+      Timeout: 180
+      MemorySize: 512
+      Environment:
+        Variables:
+          PARAM1: VALUE
+          JAVA_TOOL_OPTIONS: -XX:+TieredCompilation -XX:TieredStopAtLevel=1
+      Events:
+        LibraryAPI:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: any
+    Metadata:
+      SamResourceId: AwsDynamodbAPI
+  ConfigLambdaPermission:
+    Type: AWS::Lambda::Permission
+    DependsOn:
+    - AwsDynamodbAPI
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName:
+        Ref: AwsDynamodbAPI
+      Principal: apigateway.amazonaws.com

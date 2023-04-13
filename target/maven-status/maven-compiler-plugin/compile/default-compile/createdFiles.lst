@@ -1,0 +1,13 @@
+com\sample\microservice\awsdynamodb\configuration\AwsConfig.class
+com\sample\microservice\awsdynamodb\service\EmployeeServiceImpl.class
+com\sample\microservice\awsdynamodb\exception\DataNotFoundException.class
+com\sample\microservice\awsdynamodb\dto\EmployeeRequest.class
+com\sample\microservice\awsdynamodb\StreamLambdaHandler.class
+com\sample\microservice\awsdynamodb\service\EmployeeService.class
+com\sample\microservice\awsdynamodb\domain\Employee$EmployeeBuilder.class
+com\sample\microservice\awsdynamodb\AwsDynamodbApplication.class
+com\sample\microservice\awsdynamodb\web\EmployeeController.class
+com\sample\microservice\awsdynamodb\dto\EmployeeResponse.class
+com\sample\microservice\awsdynamodb\configuration\DynamoDbConfig.class
+com\sample\microservice\awsdynamodb\repository\EmployeeRepository.class
+com\sample\microservice\awsdynamodb\domain\Employee.class
